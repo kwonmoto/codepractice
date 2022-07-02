@@ -2,7 +2,7 @@ var fs = require("fs");
 
 // readFileSync('/dev/stdin')
 let input = fs
-  .readFileSync("1000/example.txt")
+  .readFileSync("1001/example.txt")
   .toString()
   .trim()
   .split(" ")
@@ -11,4 +11,4 @@ let input = fs
 const a = input[0];
 const b = input[1];
 
-console.log(a + b);
+console.log(a - b);
